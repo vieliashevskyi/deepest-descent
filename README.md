@@ -19,7 +19,7 @@ Run:
 Play in few words:
 * Use **w**, **a**, **s** and **d** to move **up**, **left**, **down** and **right** respectively
 * Use **f** to plant a bomb
-* Use **e** to enter next level when you will reach exit point
+* Use **e** to enter next level when you will reach exit point or "skip movement phase"
 
 For more details, bestiary and lore head to **About** section inside the game.
 
@@ -34,6 +34,6 @@ For more details, bestiary and lore head to **About** section inside the game.
 ![Level #5 example](/Img/deepest-descent-lvl-05.png)
 
 ## Different Looks in Different Terminal Themes
-![Different colour schemes](/Img/deepest-descent-consoles)
+![Different colour schemes](/Img/deepest-descent-consoles.png)
 
 Hope you will have fun!
