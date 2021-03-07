@@ -12,7 +12,7 @@ Game design was inspired by limitations (both graphical and technical) of early 
 
 ## How to Run and Play
 Run #1:
-Download game from [itch.io](https://vieliashevskyi.itch.io/deepest-descent)
+* Download game from [itch.io](https://vieliashevskyi.itch.io/deepest-descent)
 
 Run #2:
 * Download zip-file with unix executable from release section
