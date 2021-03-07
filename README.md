@@ -2,7 +2,7 @@
 
 ## About the Game
 Game design was inspired by limitations (both graphical and technical) of early personal computers. This is achieved by few selling points:
-* Game is played in system Terminal (Console) only.
+* Game is played in system Terminal (Console) only
 * Maze is redrawn as a new output after each turn, giving you a chance to scroll through the history of maze states
 * Art style is simplistic and was heavily inspired by Dwarfs Fortress aesthetics
 * Player is able to type in a sequence of moves that will be executed one-by-one
@@ -12,13 +12,16 @@ Game design was inspired by limitations (both graphical and technical) of early 
 
 ## How to Run and Play
 Run #1:
+Download game from [itch.io](https://vieliashevskyi.itch.io/deepest-descent)
+
+Run #2:
 * Download zip-file with unix executable from release section
 * Unzip it
 * Head to your Terminal
 * Navigate to folder with unzipped contents
 * type: **"./Deepest\ Descent"**
 
-Run #2:
+Run #3:
 * Clone source code
 * Build project using attached configuration
 * Run newly compiled executable
