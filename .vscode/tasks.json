@@ -11,8 +11,7 @@
                 "${workspaceFolder}/Bots/*.cpp",
                 "-o",
                 "${fileDirname}/Deepest Descent",
-                "-lncurses",
-                "-DDEBUG"
+                "-lncurses"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
