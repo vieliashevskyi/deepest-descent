@@ -1,0 +1,30 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.autoGuessEncoding":true,
+    "files.associations": {
+        "iostream": "cpp",
+        "__config": "cpp",
+        "__hash_table": "cpp",
+        "__locale": "cpp",
+        "__tree": "cpp",
+        "algorithm": "cpp",
+        "atomic": "cpp",
+        "deque": "cpp",
+        "functional": "cpp",
+        "ratio": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "complex": "cpp",
+        "__cxx_version": "cpp",
+        "list": "cpp",
+        "set": "cpp",
+        "tuple": "cpp",
+        "new": "cpp",
+        "locale": "cpp",
+        "optional": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "__debug": "cpp",
+        "ios": "cpp"
+    }
+}
