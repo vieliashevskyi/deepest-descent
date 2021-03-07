@@ -11,10 +11,17 @@ Game design was inspired by limitations (both graphical and technical) of early 
 * 7 enemies with different movement patterns and super powers
 
 ## How to Run and Play
-Run:
+Run #1:
+* Download zip-file with unix executable from release section
+* Unzip it
 * Head to your Terminal
-* Navigate to folder with downloaded or built binary
+* Navigate to folder with unzipped contents
 * type: **"./Deepest\ Descent"**
+
+Run #2:
+* Clone source code
+* Build project using attached configuration
+* Run newly compiled executable
 
 Play in few words:
 * Use **w**, **a**, **s** and **d** to move **up**, **left**, **down** and **right** respectively
