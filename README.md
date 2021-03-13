@@ -6,6 +6,7 @@ Game design was inspired by limitations (both graphical and technical) of early 
 * Maze is redrawn as a new output after each turn, giving you a chance to scroll through the history of maze states
 * Art style is simplistic and was heavily inspired by Dwarfs Fortress aesthetics
 * Player is able to type in a sequence of moves that will be executed one-by-one
+  * This is a reason for requirement to tap **Enter** to perform a move after input. This is partially to simualte input style on older devices
 * Completely chaotic level generation. It has so few content and enemy constraints that you can encounter truly idiotic mazes
 * Local leaderboard. Compete against your friends and family and hope that luck will be on your side
 * 7 enemies with different movement patterns and super powers to encounter, defeat or elude
@@ -42,9 +43,9 @@ Game design was inspired by limitations (both graphical and technical) of early 
 ```
 gcc -g main.cpp -g MazeProcessor.cpp -g ./Bots/*.cpp -o "Deepest Descent" -lncurses -lstdc++
 ```
-* If you encounter message `bash: ./Deepest\ Descent: permission denied`. You need to execute following command before you can run the game:
+* If you encounter message `bash: ./Deepest\ Descent: permission denied`. You need to execute following command before you can run the game with super user privileges:
 ```
-chmod u+x "Deepest Descent"
+sudo chmod u+x "Deepest Descent"
 ```
 * Run newly compiled executable
 
