@@ -11,22 +11,44 @@ Game design was inspired by limitations (both graphical and technical) of early 
 * 7 enemies with different movement patterns and super powers to encounter, defeat or elude
 
 ## How to Run and Play
-Run #1:
+#### Run Build uploaded to Itch (macOS):
 * Download game from [itch.io](https://vieliashevskyi.itch.io/deepest-descent)
-
-Run #2:
-* Download zip-file with unix executable from release section
 * Unzip it
-* Head to your Terminal
+* Head to Terminal
 * Navigate to folder with unzipped contents
 * type: **"./Deepest\ Descent"**
 
-Run #3:
+#### Run Build uploaded to Releases section on GitHub (macOS):
+* Download zip-file with macOS executable from release section
+* Unzip it
+* Head to Terminal
+* Navigate to folder with unzipped contents
+* type: **"./Deepest\ Descent"**
+
+#### Build game from sources (macOS):
 * Clone source code
-* Build project using attached configuration
+* Build project using Visual Code and attached configuration
 * Run newly compiled executable
 
-Play in few words:
+#### Build game from sources (Linux):
+* Clone source code
+* Add following includes inside **main.cpp**:
+```cpp
+#include <string.h>
+#include <iomanip>
+#include <limits>
+```
+* Build project using following command:
+```
+gcc -g main.cpp -g MazeProcessor.cpp -g ./Bots/*.cpp -o "Deepest Descent" -lncurses -lstdc++
+```
+* If you encounter message `bash: ./Deepest\ Descent: permission denied`. You need to execute following command before you can run the game:
+```
+chmod u+x "Deepest Descent"
+```
+* Run newly compiled executable
+
+#### Play in few words:
 * Use **w**, **a**, **s** and **d** to move **up**, **left**, **down** and **right** respectively
 * Use **f** to plant a bomb
 * Use **e** to enter next level when you will reach exit point or "skip movement phase"
